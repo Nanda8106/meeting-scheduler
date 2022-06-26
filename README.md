@@ -1,7 +1,7 @@
 # Meeting Scheduler
 
 ## Description:
-An application for scheduling meetings for company employees. Each employee's busy schedules were all provided in text form. The assignment's goal is to locate meetings where necessary personnel were available on the requested date and time.
+An application for scheduling meetings for company employees. Each employee's busy schedule were all provided in text form. The assignment's goal is to locate meetings where necessary personnel are available on the requested date and time.
 
 ### structure of the folder
 
@@ -44,14 +44,19 @@ Json file created from the script will be in the form of
 ]
 ```
 
-### Instruction to run the application
+### Instructions to run the application
 
-1. Clone the assignment from the given link: https://github.com/Nanda8106/lime-meeting-schedule 
-2. As above mentioned these assignment contians two folders convertion, schedule-meeting.
-3. Change the directory to schedule-meeting folder where it contains react application.
-4. Use the command to install node-modules cmd -> "npm install"
-5. Then use the command -> "npm start"
-6. Then application will start running. It will take sometime to load
+1. Run the below commands from home dir as following to convert text to json.
+```bash
+cd convertion
+./convert.py
+```
+2. Run the below commands from home dir to install node packages and run the application.
+```bash
+cd schedule-meeting 
+npm install
+npm start
+```
 
 ### Input user need to give input in the application
 

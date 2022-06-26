@@ -1,9 +1,9 @@
-# Assignment - Meeting Scheduler
+# Meeting Scheduler
 
 ## Description:
 An application for scheduling meetings for company employees. Each employee's busy schedules were all provided in text form. The assignment's goal is to locate meetings where necessary personnel were available on the requested date and time.
 
-### struture of the folder
+### structure of the folder
 
 ```bash
 Assignment
@@ -31,8 +31,7 @@ Json file created from the script will be in the form of
             {
                 "start":{
                     "date":"",
-                    "time":"24 hrs",
-                    
+                    "time":"24 hrs", 
                 },
                 "end":{
                     "date":"",
@@ -47,7 +46,7 @@ Json file created from the script will be in the form of
 
 ### Instruction to run the application
 
-1. Clone the assignment from the given link: 
+1. Clone the assignment from the given link: https://github.com/Nanda8106/lime-meeting-schedule 
 2. As above mentioned these assignment contians two folders convertion, schedule-meeting.
 3. Change the directory to schedule-meeting folder where it contains react application.
 4. Use the command to install node-modules cmd -> "npm install"

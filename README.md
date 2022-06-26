@@ -44,7 +44,7 @@ Json file created from the script will be in the form of
 
 ### Instruction to run the application
 
-1. Clone the assignment from the given link: 
+1. Clone the assignment from the given link: https://github.com/Nanda8106/lime-meeting-schedule 
 2. As above mentioned these assignment contians two folders convertion, schedule-meeting.
 3. Change the directory to schedule-meeting folder where it contains react application.
 4. Use the command to install node-modules cmd -> "npm install"

@@ -29,8 +29,7 @@ Json file created from the script will be in the form of
             {
                 "start":{
                     "date":"",
-                    "time":"24 hrs",
-                    
+                    "time":"24 hrs", 
                 },
                 "end":{
                     "date":"",

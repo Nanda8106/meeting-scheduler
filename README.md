@@ -5,6 +5,7 @@ An application for scheduling meetings for company employees. Each employee's bu
 
 ### struture of the folder
 
+```bash
 Assignment
     - convertion
         - convert.py
@@ -15,12 +16,13 @@ Assignment
         - package.json
         - package-lock.json
     - README.md
-
+```
 ### Explanation
 
 The provided data is in text format and includes some null values. I therefore created a Python script to transform the text data into JSON.
 
 Json file created from the script will be in the form of
+```json
 [
     {
         "id":"",
@@ -41,7 +43,7 @@ Json file created from the script will be in the form of
         ]
     },
 ]
-
+```
 
 ### Instruction to run the application
 

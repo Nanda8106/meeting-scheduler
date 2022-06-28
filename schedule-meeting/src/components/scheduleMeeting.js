@@ -100,7 +100,7 @@ const ScheduleMeeting = ({ setFinalFreeTimes, setSubmitted }) => {
             // finding each employee free time in the requested start and end date, time
             // following loop iterates over each employee given in the field
             for (var eachEmp = 0; eachEmp < selectedEmployees.length; eachEmp++) {
-                let meetings = employeeData[eachEmp]["meetings"]
+                let meetings = selectedEmployees[eachEmp]["meetings"]
                 // finding each employee busy meeting in the given date and time
                 let busyMeetings = meetings.filter((meeting) => isDateBetween(meeting, start, end))
                 let freeTimes = [] // collects free times of each employee

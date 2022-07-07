@@ -1,7 +1,7 @@
 # Meeting Scheduler
 
 ## Description:
-An application for scheduling meetings for company employees. Each employee's busy schedule were all provided in text form. The assignment's goal is to locate meetings where necessary personnel are available on the requested date and time.
+An application for scheduling meetings for company employees. Each employee's busy schedule were all provided in text form. The application's goal is to locate meetings where necessary personnel are available on the requested date and time.
 
 ### structure of the folder
 

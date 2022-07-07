@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import icon from "../assets/images/icon.png";
+import icon from "../assets/images/logo.png";
 
 const NavBar = () => {
-    return(
+    return (
         <Nav>
             <span>
-                <h2>lime</h2>
                 <img src={icon} alt="logo" />
+                <h2>Scheduler</h2>
             </span>
         </Nav>
     )
@@ -22,12 +22,14 @@ const Nav = styled.div`
     span{
         display: flex;
         align-items: flex-end;
+        cursor: pointer;
         h2{
             font-weight: 400;
         }
         img{
             width: 2rem;
             height: 2rem;
+            margin-right: 0.3rem;
         }
     }
     @media (max-width: 700px) {
